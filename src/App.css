@@ -1,0 +1,20 @@
+@font-face {
+    font-family: ebrima;
+    src: url(./assets/ebrima.ttf);
+}
+
+:root {
+    --primary: #986D8E;
+    --secondary: #87A8A4;
+    --tetiary: #D9CAB3;
+    --inferior: #EFE3D0;
+    --text: #FFFFFF;
+}
+
+* {
+    background-color: var(--primary);
+    color: var(--text);
+    font-family: ebrima;
+    margin: 0;
+    padding: 0;
+}
