@@ -1,8 +1,15 @@
+import React from 'react';
 import './App.css'
+import Footer from './components/footer';
+import Header from './components/header'
+
 
 function App() {
   return (
-      <p>Hello World! To the futurr!!</p>
+    <React.Fragment>
+      <Header button={true}/>
+      <Footer />
+      </React.Fragment>
   )
 }
 
