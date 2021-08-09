@@ -1,9 +1,15 @@
+import React from 'react';
 import './App.css'
-import Home from './pages/Home/Home'
+import Footer from './components/footer';
+import Header from './components/header'
+
 
 function App() {
   return (
-      <Home />
+    <React.Fragment>
+      <Header button={true}/>
+      <Footer />
+      </React.Fragment>
   )
 }
 
