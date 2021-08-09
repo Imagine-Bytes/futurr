@@ -1,0 +1,40 @@
+* {
+    font-size: var(--heading);
+    /* border: 1px solid green; */
+}
+
+.display {
+    max-width: 800px;
+    display: flex;
+    margin: 0 auto;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+.img {
+    text-align: center;
+}
+
+img {
+    width: 11em;
+    margin: 1em;
+}
+
+.content {
+    min-height: 80vh;
+}
+
+@media screen and (max-width: 600px) {
+    .display {
+        display: block;
+    }
+
+    img {
+        width: 70%;
+    }
+}
