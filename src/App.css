@@ -4,11 +4,16 @@
 }
 
 :root {
+    /* COLORS */
+
     --primary: #986D8E;
     --secondary: #87A8A4;
     --tetiary: #D9CAB3;
     --inferior: #EFE3D0;
     --text: #FFFFFF;
+
+    /* FONTS */
+    --heading: 25px;
 }
 
 * {
@@ -18,10 +23,18 @@
     margin: 0;
     padding: 0;
     font-size: 16px;
+    box-sizing: border-box;
 }
 
-@media screen and (max-width: 400px) {
+.main {
+    max-width: 500px;
+    margin: 1em auto;
+    padding: 0 1em;
+}
+
+@media screen and (max-width: 500px) {
     * {
-        font-size: 14px;
+        font-size: 12px;
+        --heading: 16px;
     }
 }
