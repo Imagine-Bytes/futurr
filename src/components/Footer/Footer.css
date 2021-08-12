@@ -1,0 +1,13 @@
+.footer-body {
+    background-color: var(--inferior);
+    text-align: center;
+}
+
+.logout-link {
+    padding: 1.5em;
+}
+
+.footer-panel p {
+    padding-bottom: 1.5em;
+    color: var(--alternate);
+}

@@ -1,0 +1,23 @@
+.credential {
+    padding: 1em 0.5em;
+    border-bottom: 3px solid var(--inferior);
+    margin-bottom: 2em;
+}
+
+.credential-head {
+    margin-bottom: 0.5em;
+    color: var(--inferior);
+}
+
+.sub-text {
+    font-size: 0.8em;
+}
+
+.new-btn {
+    width: fit-content;
+}
+
+.text-btn {
+    display: flex;
+    justify-content: space-between;
+}

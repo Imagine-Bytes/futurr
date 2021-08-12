@@ -1,0 +1,45 @@
+@font-face {
+    font-family: ebrima;
+    src: url(./assets/ebrima.ttf);
+}
+
+:root {
+    /* COLORS */
+    --primary: #986D8E;
+    --secondary: #87A8A4;
+    --tetiary: #D9CAB3;
+    --inferior: #EFE3D0;
+    --text: #FFFFFF;
+
+    --alternate: black;
+    --dark-primary: #6c4a6c;
+
+    /* FONT */
+    --heading: 1.5em;
+
+    /* SCREEN SIZES */
+    --tablet: 700px;
+    --mobile: 400px;
+}
+
+* { 
+    color: var(--text);
+    font-family: ebrima;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    font-size: 16px;
+}
+
+@media screen and (max-width: 700px) {
+    * {
+        font-size: 14px;
+    }
+}
+
+@media  screen and (max-width: 400px) {
+    * {
+        font-size: 12px;
+    }
+}

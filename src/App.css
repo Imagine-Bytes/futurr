@@ -1,99 +1,56 @@
-@font-face {
-    font-family: ebrima;
-    src: url(./assets/ebrima.ttf);
-}
-
-:root {
-    /* COLORS */
-
-    --primary: #986D8E;
-    --secondary: #87A8A4;
-    --tetiary: #D9CAB3;
-    --inferior: #EFE3D0;
-    --text: #FFFFFF;
-
-    /* FONTS */
-    --heading: 25px;
-}
-
-
-@media screen and (max-width: 500px) {
-    * {
-        font-size: 14px;
-        --heading: 16px;
-    }
-}
-
-body {
+#root {
     background-color: var(--primary);
-    color: var(--text);
-    font-family: ebrima;
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
-    box-sizing: border-box;
-}
-
-header{
-    display: flex;
-    padding: 2em;
-}
-header > div {
-    display: flex;
-    width: 50%;
-    align-items: center;
-}
-.brand > img {
-    width: 10em;
-}
-
-.add{
-    justify-content: flex-end;
-}
-
-.add > button{
-    display:flex;
-    width: 4em;
-    height: 3em;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    border-radius: .5em;
-    background-color: #87A8A4;
-    color: var(--text);
+    min-height: 100vh;
 }
 
 .main {
-    max-width: 500px;
-    margin: 1em auto;
-    padding: 0 1em;
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 0 2em;
+    min-height: 80vh;
+    margin-bottom: 2em;
 }
 
-footer{
-    height: 20vh;
-    background-color: #D9CAB3 ;
+.head-text {
+    font-size: var(--heading);
+    margin: 1em 0 2em;
+}
+
+label {
+    display: block;
+    margin: 1.5em 0;
+}
+
+select {
+    padding: 0.6em;
     width: 100%;
-    position: absolute;
-    top: 80vh;
-}
-.footer-panel  {
-    display: flex;
-    flex-direction: column;
-    background-color: transparent;
-}
-.footer-panel > button {
-    width: 10em;
-    height: 4em;
-    border: none;
-    background-color: #87A8A4;
-    margin: 0 auto;
+    background-color: var(--dark-primary);
+    border-radius: 0.2em;
     color: var(--inferior);
-    font-weight: lighter;
 }
-.footer-panel > h2{
-    text-align: center;
-    margin: 0;
-    color:black;
-    margin-top: 1em;
+
+form {
+    margin-bottom: 4em;
+}
+
+input {
+    padding: 0.7em;
+    color: var(--alternate);
+    width: 100%;
+    background-color: var(--inferior);
+    border: none;
+}
+
+textarea {
+    border-radius: 0.2em;
+    padding: 0.7em;
+    width: 100%;
+    height: 15em;
+    background-color: var(--inferior);
+    color: var(--alternate);
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary);
 }

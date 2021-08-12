@@ -1,9 +1,8 @@
 button {
-    width: 100%;
-    margin: 0.5em 0;
     border: none;
     background: var(--secondary);
-    padding: 0.2em;
+    padding: 0.5em;
     border-radius: 0.2em;
-    color: var(--text)
+    color: var(--inferior);
+    font-size: var(--heading);
 }
