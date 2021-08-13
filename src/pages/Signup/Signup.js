@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 export default function Signup() {
     return (
         <div className="main signup-page">
-            <p className="head-text">Login</p>
+            <p className="head-text">Sign up</p>
 
             <form>
                 <div>
